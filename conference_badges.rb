@@ -17,6 +17,8 @@ def batch_badge_creator(array)
   return speaking
 end
 
+
+
 def assign_rooms(array)
   speaker = []
   counter = 1
@@ -27,6 +29,8 @@ def assign_rooms(array)
   return speaker
 end
 
+
+
 def printer(array)
   batch_badge_creator(array).each do |id|
     puts id
@@ -36,3 +40,5 @@ def printer(array)
     puts id 
   end
 end 
+
+
