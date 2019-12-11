@@ -1,12 +1,13 @@
 require 'pry'
 
 # Write your code here.
-names = 
+names = [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
+rooms = [1, 2, 3, 4, 5, 6, 7]
 
 def badge_maker(name)
  return "Hello, my name is #{name}"
 end
-badge_maker(Arel)
+badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
