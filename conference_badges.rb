@@ -1,4 +1,4 @@
-
+require 'pry'
 # Write your code here.
 
 speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
@@ -41,4 +41,5 @@ def printer(array)
   end
 end 
 
+binding.pry
 
