@@ -41,5 +41,5 @@ def printer(array)
   end
 end 
 
-binding.pry
+
 
